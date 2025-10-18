@@ -1,0 +1,114 @@
+/* CKEditor Custom Styles */
+.ckeditor-wrapper .ck-editor__editable {
+  min-height: 120px !important;
+}
+
+/* Fix list display and editing */
+.ckeditor-wrapper .ck.ck-content ul {
+  list-style-type: disc !important;
+  margin-left: 20px !important;
+  padding-left: 0 !important;
+}
+
+.ckeditor-wrapper .ck.ck-content ol {
+  list-style-type: decimal !important;
+  margin-left: 20px !important;
+  padding-left: 0 !important;
+}
+
+.ckeditor-wrapper .ck.ck-content li {
+  margin-bottom: 5px !important;
+  display: list-item !important;
+  position: relative !important;
+}
+
+/* Ensure list items are editable */
+.ckeditor-wrapper .ck.ck-content li p {
+  margin: 0 !important;
+  display: inline !important;
+}
+
+/* Fix cursor and text input in lists */
+.ckeditor-wrapper .ck.ck-content li {
+  cursor: text !important;
+  user-select: text !important;
+  -webkit-user-select: text !important;
+  white-space: normal !important;
+}
+
+.ckeditor-wrapper .ck.ck-content li * {
+  cursor: text !important;
+  user-select: text !important;
+  -webkit-user-select: text !important;
+  white-space: normal !important;
+}
+
+/* Remove any conflicting pseudo-elements */
+.ckeditor-wrapper .ck.ck-content ul li::before,
+.ckeditor-wrapper .ck.ck-content ol li::before {
+  display: none !important;
+}
+
+/* Make sure list content is editable */
+.ckeditor-wrapper .ck-content .ck-list-bogus-paragraph {
+  display: none !important;
+}
+
+/* Ensure proper spacing and interaction */
+.ckeditor-wrapper .ck.ck-content li {
+  padding-left: 0 !important;
+  text-indent: 0 !important;
+}
+
+/* Fix any pointer events issues */
+.ckeditor-wrapper .ck.ck-content li,
+.ckeditor-wrapper .ck.ck-content li > * {
+  pointer-events: auto !important;
+}
+
+/* Additional fixes for list editing */
+.ckeditor-wrapper .ck.ck-content li {
+  min-height: 1.2em !important;
+}
+
+/* Ensure text cursor appears in list items */
+.ckeditor-wrapper .ck.ck-content li:focus {
+  outline: none !important;
+}
+
+/* Fix for empty list items */
+.ckeditor-wrapper .ck.ck-content li:empty::before {
+  content: '\00a0' !important;
+  opacity: 0 !important;
+}
+
+/* Make sure list items can receive focus */
+.ckeditor-wrapper .ck.ck-content li[contenteditable='true'] {
+  cursor: text !important;
+}
+
+/* Force enable text input in all list items */
+.ckeditor-wrapper .ck.ck-content li {
+  -webkit-user-modify: read-write !important;
+  user-modify: read-write !important;
+  -webkit-appearance: none !important;
+  outline: none !important;
+}
+
+/* Enable editing on click */
+.ckeditor-wrapper .ck.ck-content li:focus,
+.ckeditor-wrapper .ck.ck-content li:active {
+  outline: 1px solid rgba(191, 47, 31, 0.3) !important;
+  background: rgba(191, 47, 31, 0.05) !important;
+}
+
+/* Ensure text selection works */
+.ckeditor-wrapper .ck.ck-content li::selection {
+  background: rgba(191, 47, 31, 0.2) !important;
+}
+
+/* Force text cursor on hover and focus */
+.ckeditor-wrapper .ck.ck-content li:hover,
+.ckeditor-wrapper .ck.ck-content li:focus {
+  cursor: text !important;
+}
