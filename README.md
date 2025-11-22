@@ -6,7 +6,7 @@ MathTek là nền tảng học tập toán học và lập trình công nghệ t
 
 > 💻 "Học toán và lập trình từ cơ bản đến nâng cao – Xây dựng tương lai công nghệ!"
 
-## [LINK-DEMO](https://i.ytimg.com/vi/oRs2tfN6rBc/oar2.jpg?sqp=-oaymwEYCJUDENAFSFqQAgHyq4qpAwcIARUAAIhC&rs=AOn4CLBFxvKgW7rLz5iK6iz0T4S5aa_PuQ)
+## [LINK-DEMO](https://drive.google.com/file/d/1cz7Drl6nvWdAGcc3kOD5YnVwwCK8n8rn/view?usp=sharing)
 
 ---
 
